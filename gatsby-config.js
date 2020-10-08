@@ -6,5 +6,20 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `сайт священника Александра Бартова`,
+        short_name: `сайтСвященника`,
+        description: `сайт священника Александра Бартова`,
+        lang: `ru`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+        start_url: `/`,
+        background_color: `#596275`,
+        theme_color: `#596275`,
+      },
+    },
+  ],
 }
