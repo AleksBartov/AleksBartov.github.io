@@ -21,5 +21,6 @@ module.exports = {
         theme_color: `#596275`,
       },
     },
+    `gatsby-plugin-sass`,
   ],
 }

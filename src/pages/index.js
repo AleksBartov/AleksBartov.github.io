@@ -1,5 +1,6 @@
 import React from "react"
+import { title } from './index.module.scss'
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return <div className={title}>Hello world!</div>
 }
