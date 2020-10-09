@@ -1,7 +1,13 @@
-html {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&display=swap');
 
-    div {
-        border: 2px solid blue;
-    }
-  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-color: black;
+    color: white;
+}
